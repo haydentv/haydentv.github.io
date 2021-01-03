@@ -14,7 +14,6 @@
     />
     <link href="https://www.tomerovadia.com/favicon.ico" rel="shortcut icon" />
     <link href="assets/styles.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
   </head>
   <body class="bg-white" style="background-color: #2f363d !important">
@@ -109,11 +108,21 @@
         style="background-color: #2f363d !important"
       >
         <div class="mx-auto" style="max-width: 900px">
-          <h2 class="text-white">Random image</h2>
-          <p class="f4 mb-4 text-white">Try Refresh</p>
           <div class="d-flex flex-wrap gutter-condensed mb-4">
             <div class="col-12">
-              <img id="randomImg" alt="Random image" src="img/loading.gif" />
+              <button
+                id="dinoButton"
+                class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5"
+                target="_blank"
+                title="Don't click me"
+              >
+                <img
+                  alt="Dino"
+                  class="mx-auto rounded-1 mb-3"
+                  src="img/dino.gif"
+                  width="100%"
+                />
+              </button>
             </div>
           </div>
 
